@@ -1,0 +1,67 @@
+body {
+  background-color: #F5F5DD;
+}
+header {
+    background-color: white;
+    flex: 0 0 40px;
+    color: black;
+    /* justify-content: center; */
+    padding: 20px;
+}
+header nav {
+    background-color: rgba(255,255,255, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+body > section {
+    flex: 1 1 auto;
+    flex-direction: row;
+    height: 100%;
+    display: grid;
+    justify-content: top;
+}
+section > main {
+    flex-grow: 1;
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+}
+article {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+aside {
+    background-color: lightblue;
+    height: 40%;
+    flex-grow: 0;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+footer {
+    background-color: black;
+    flex: 0 0 40px;
+    flex-grow: 0;
+    color: white;
+    /* justify-content: center; */
+    padding: 20px;
+}
+even-columns{
+  display: flex;
+}
+<style media="screen">
+  width: Her rettes str på billede - find ud af det
+  Border: ret også kant på billede - find ud af
+  float (placering): ret så den er ude i højre side - find ud af
+  margin (afstand af txt og billede): ret - find ud af
+  Her kan skrift typer af diverse ting ændres (titel - lav om til en class (bold) og brødtekst)
+</style>
